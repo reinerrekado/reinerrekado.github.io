@@ -1,0 +1,47 @@
+.tajuk {
+    background-color: dodgerblue;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tajuk_title {
+    margin-top: 0px;
+    color: red;
+    flex: 1;
+}
+
+.tajuk_input_container {
+    flex: 1;
+}
+
+.header_info {
+    margin-top: 5px;
+    font-size: 8px;
+    color: yellowgreen;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    border: 3px dashed red;
+}
+
+.content_span {
+    padding: 20px 20px;
+    color: grey;
+    background-color: khaki;
+    margin-bottom: 10px;
+}
+
+.content_span_close {
+    padding: 0px 40px;
+    position: absolute;
+    right: 30px;
+}
+
+.content_none {
+    display: none;
+}
